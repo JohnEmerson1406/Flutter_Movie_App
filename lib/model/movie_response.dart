@@ -8,7 +8,7 @@ class MovieResponse {
 
   MovieResponse.fromJson(Map<String, dynamic> json)
     : movies =
-      (json["results"] as List).Map((i) => new Movie.fromJson(i)).toList(),
+      (json["results"] as List).map((i) => new Movie.fromJson(i)).toList(),
       error = "";
 
   MovieResponse.withError(String errorValue)
