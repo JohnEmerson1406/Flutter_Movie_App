@@ -95,6 +95,7 @@ class _GenreMoviesState extends State<GenreMovies> {
                                     BorderRadius.all(Radius.circular(2.0)),
                                 shape: BoxShape.rectangle),
                             child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
                               children: <Widget>[
                                 Icon(
                                   EvaIcons.filmOutline,
